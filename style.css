@@ -1,0 +1,76 @@
+body {
+	background-image: url("tausta.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+h1 {
+  color: White;
+  text-align: center;
+  font-size:50px;
+  text-shadow: 10px 10px 20px black;
+}
+
+h2 {
+  color: white;	
+  text-align:center;
+  font-size: 30px;
+  text-shadow:5px 5px 10px black;
+  
+}
+
+p {
+  font-family: verdana;
+  font-size: 15px;
+  color:white;
+  text-shadow:2px 2px 4px black;
+  text-align:justify;
+  line-height:1.5;
+  padding:10px;
+}
+ul {
+  justify-content: center;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #BEBEBE;
+}
+
+li a {
+  text-shadow: 2px 2px 4px black;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+div#laatikko1 ul {
+	display:inline;
+	list-style-type:square;
+	text-align:center;
+	color:black;
+	font-size:17px;
+	margin-left:400px;
+	margin-right:400px;
+	
+}
+#teksti {
+	text-align:left;
+	margin-left:400px;
+	margin-right:400px;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+div#edellinen {
+	padding:8px 16px;
+	text-align:left;
+	vertical-align:bottom;
+	border-radius:50%;
+	
+}
