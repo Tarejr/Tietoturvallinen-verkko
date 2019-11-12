@@ -27,13 +27,40 @@
 			
 		</ul>
 	<hr>
-	<h2>  Aihe  </h2>
+	<h2>  PCII  </h2>
 	<div id="teksti">
-	<p> TEKSTIT TÄHÄN VÄLIIN  </p>
+	<p>
+	Tässä osiossa esitellään PCII-tietoturvastandardia, joka määrittelee korttimaksamisen tietoturvaa. PCII:ssä käsitellään erilaisia keinoja, joilla korttitietoja suojataan, jotta ne eivät päädy vääriin käsiin.
+	<br><br><h2>Laitteiden suojaus</h2>
+	<br><b>Palomuuri</b>
+	<br>Palomuuri on keskeinen osa yhteyden suojaamista, jotta kortinhaltijan data pysyisi turvassa. Jokaisessa laitteessa, jota toimistossa käytetään, tulisi olla toimiva palomuuri. Laitteita tulisi käyttää vain kortinhaltijan datan ja muiden yritykseen liittyviin asioihin käsittelyyn, ja muu liikenne estetään palomuurilla. Palomuurin toimivuus tulisi tarkistaa kuuden kuukauden välein.
+	<br><br><b>Haittaohjelmilta suojaus</b>
+	<br>Varmista, että kaikissa laitteissa, joihin voi tulla virus, on virussuoja ja pidä se ajan tasalla. Virussuojan tulisi suojata kaikkia mahdollisia haittaohjelmia vastaan (virukset, troijalaiset, vakoiluohjelmat, madot, mainosohjelmat ja rootkitit). Jos on laite, johon ei ole nähty tarpeelliseksi laittaa virussuojaa, pitäisi säännöllisesti tarkistaa, onko tarvetta virussuojalle. Tarkista säännöllisesti myös virussuojien toimivuus ja asenna uudet päivitykset mahdollisimman nopeasti. Virussuojan tulisi olla päällä koko ajan, ellei ole erikseen tärkeää teknistä syytä, jonka vuoksi se pitäisi hetkeksi ottaa pois. 
+	<br><br><b>Hyökkäyspinnan minimointi</b>
+	<br>Kaikki tarpeettomat toiminnot poistetaan tai otetaan pois käytöstä. Valmiina annettuja salasanoja ei saa käyttää, vaan ne pitää aina vaihtaa. Arkaluontoinen data poistetaan turvallisesti ja heti kun sitä ei tarvita enää (esim. heti maksamisen jälkeen poistetaan korttitiedot). 
+	<br><br><b>Testaa verkko säännöllisesti</b>
+	<br>Järjestelmän komponentit, prosessit ja ohjelmat tulisi testata säännöllisesti turvallisuuden takaamiseksi. Varsinkin muutosten yhteydessä tulisi testata, että kaikki toimii. Haavoittuvuuden tarkistus tulisi tehdä neljännesvuosittain sekä muutosten yhteydessä. Ota käyttöön mekanismi, joka ilmoittaa järjestelmään tehdyistä muutoksista.
+	<br><br><b>Kehitä ja ylläpidä turvasysteemejä</b>
+	<br>Ota käyttöön ohjelma, joka tunnistaa turvallisuusuhkia, kertoo turvallisuusuhkan riskitason ja käyttää luotettavaa ulkopuolista lähdettä. Pysy ajan tasalla turvallisuusuhkista ja varmista, että kaikki laitteet ja ohjelmistot ovat suojattu tiedetyiltä uhkilta. Poista testaukseen ja kehitykseen käytetyt käyttäjät ennen kuin ohjelmat tulevat asiakkaille käyttöön. Tarkista myös koodi eri ihmisen toimesta kuin koodaaja itse, tarvittaessa ulkopuolisen asiantuntijan toimesta, jotta havaittaisiin koodiin liittyvät ongelmat ja turvallisuusuhat. Erittele kehitykseen ja testaukseen tarkoitetut ympäristöt tuottamisympäristöistä kulunvalvonnan toimilla. Kehittäjien tulisi vähintään kerran vuodessa päivittää taitojaan tietoturvallisessa koodaamisessa ja koodata sovelluksia tietoturvallisesti. 
+	<br><br><h2>Kortinhaltijan datan suojaus</h2>
+	<br><b>Suojaa varastoitua kortinhaltijan dataa</b>
+	<br>Säilytä mahdollisimman vähän kortinhaltijan dataa ja pidä tallessa vain ne, jotka lain mukaan kuuluu pitää. Poista heti data, jota ei tarvitse enää. Arkaluontoisten todennustietojen (PIN-koodit, pankkikortin takana oleva turvanumero, kortin magneettiraidan tai sirun tiedot) säilyttäminen on kiellettyä. Jos tätä dataa vastaanotetaan tunnistusprosessissa, se pitää muuttaa muotoon, josta sitä ei voi palauttaa. Kortin tunnusluku täytyy piilottaa osittain, kun se näytetään (saa näyttää joko kuusi ensimmäistä tai neljä viimeistä numeroa). Säilöttynä tunnusluvun täytyy olla muodossa, jossa sitä ei voi lukea. 
+	<br><br><b>Salaa kortinhaltijan dataa, kun sitä lähetetään avoimella yhteydellä</b>
+	<br>Arkaluontoiset tiedot täytyy kryptata, kun niitä lähetetään yhteydellä, johon pahansuovilla ihmisillä voi olla pääsy. Näitä yhteyksiä ovat esimerkiksi Internet ja Bluetooth. Käytä vahvaa kryptausta ja turvatoimia, jotka ovat luotettavia ja ajan tasalla. Varmista että korttitietoja kysytään vain, kun osoitteessa on HTTPS-alku. Heikkoa kryptausta (esim. SSL ja WEP) ei saa käyttää tunnistautumisessa tai maksamisessa. Älä koskaan lähetä pankkitunnuksia suojaamattomina sähköpostilla, tekstiviestillä tai chat-viestillä. 
+	<br><br><b>Rajoita kortinhaltijan dataan pääsyä</b>
+	<br>Arkaluontoisen datan tulisi olla vain rajoitetun joukon saatavilla eli niiden, jotka välttämättä tarvitsevat sitä työssään. Määritä, mihin jokaisella työntekijällä on pääsy. 
+	<br><br><b>Rajaa fyysistä pääsyä kortinhaltijan dataan</b>
+	<br>Käytä toimiston sisään-/uloskäynnissä videokameroita tai muita kulunvalvonnan keinoja, jotta tiedetään, keillä on ollut pääsy tietoihin. Tietoa (esimerkiksi kuvattua videota) tulee säilyttää vähintään kolme kuukautta. Vierailijat tunnistautuvat aluksi (otetaan talteen nimi ja heidän edustamansa yritys) ja heillä on saattaja koko ajan. Kaikki tieto suojataan, esimerkiksi pöydille ei jätetä papereita, jotka voisi ottaa mukaan. Pidä listaa kaikista työpaikan laitteista ja missä ne sijaitsevat, jotta kadonneet laitteet huomattaisiin nopeasti. Laitteet pitää tarkistaa säännöllisesti, jotta huomattaisiin että niitä ei ole muokattu tai vaihdettu. Henkilökunnan pitää osata huomata muutokset (esim. ettei ulkopuolinen huoltomieheksi esittäytyvä tule varastamaan tietoja). 
+	<br><br><h2>Ohjelmien tietoturva</h2>
+	<br>Hyökkäystilanteisiin tulee varautua. Tärkeä data laitetaan tunnistautumisen taakse. Tunnistautumisesta tehdään varmaa (esim. salasanoja ei voi arvata). Rajataan pääsy dataan vain niille, jotka sitä oikeasti tarvitsevat. Kryptausta käytetään oikein ja turvallisesti. 
+	<br><br>Kaikkea ohjelmien toimintaa seurataan, jos ne käsittelevät arkaluontoista dataa. Toiminnasta voidaan jäljittää, kuka sen on tehnyt ja mihin aikaan ja mitä tiettyjä asioita on tehty. Ohjelma ilmoittaa hyökkäyksestä tai siihen viittaavasta tapahtumasta. 
+	<br><br>Suunnitellaan, miten ohjelmiston uhkatilanteissa toimitaan. Heikkoudet testataan ja korjataan ennen kuin julkaistaan ohjelma. Ohjelman päivitykset pidetään ajan tasalla.  
+	<br><br><h2>Henkilökunnan tietoturva</h2>
+	<br>Kaikkien työntekijöiden tulisi tietää, että data on arkaluontoista ja sitä täytyy suojata. Pidä yllä turvallisuuspolitiikkaa ja tarkista se ainakin vuosittain. Pidä listaa henkilökunnasta ja laitteista, joihin heillä on pääsy. Määrittele teknologian hyväksyttävät käyttötavat ja yrityksen hyväksymät tuotteet. Määritä tietoturvatehtävät jonkin ihmisen/ryhmän vastuuksi. Kouluta henkilökunta palkkaamisen yhteydessä ja sen jälkeen vähintään vuosittain ja varmista että he ovat ymmärtäneet tietoturvapolitiikan. Tarkista työntekijöiden taustatiedot ennen palkkaamista, ettei kenelläkään ole rikosrekisteriä. Pidä tallessa kirjallinen sopimus siitä, että palveluntarjoajat ovat vastuussa säilyttämänsä kortinhaltijoiden datan turvallisuudesta. Kehitä suunnitelma, miten riskien sattuessa toimitaan ja ole valmis reagoimaan järjestelmän rikkomukseen heti. Testaa suunnitelma ainakin kerran vuodessa ja kouluta henkilökuntaa, miten riskitilanteissa reagoidaan. 
+	<br><br><b>Työntekijöiden tunnistautuminen järjestelmän komponentteihin</b>
+	<br>Jokaisella, jolla on pääsy järjestelmän komponentteihin, tulisi olla oma tunnus, jolla tekemisiä voidaan jäljittää ja jokainen on vastuussa omista tekemisistään. Jokaisella tulisi olla oma ID ennen kuin pääsee käsiksi järjestelmän komponentteihin tai kortinhaltijan dataan. Epäaktiiviset tunnukset, joita ei ole käytetty 90 päivään, tulisi poistaa. Myös erotetun työntekijän tunnukset pitäisi poistaa. Sisäänpääsyä tulisi rajoittaa niin, että yli kuutta kertaa ei voi yrittää kirjautua, koska joku voi muuten rajattomasti arvailla salasanaa ja yrittää päästä sisään. Jos käyttäjä on lukittuna kirjautumasta tämän takia, lukittumisen pitäisi kestää vähintään 30 minuuttia. Jos istunto on kestänyt yli 15 minuuttia käyttäjän tekemättä mitään, hänet pitäisi kirjata ulos, koska hän on voinut kävellä pois laitteen ääreltä ja joku muu voisi käyttää hänen tunnuksiaan sillä välin. Tunnistautumistiedot täytyy salata vahvasti. Jos käyttäjä haluaa muokata niitä, hänen pitää tunnistautua jotenkin, esimerkiksi turvakysymyksellä. Salasanoissa tulisi olla vähintään 7 merkkiä ja sekä numeroita että kirjaimia ja ne pitäisi vaihtaa vähintään 90 päivän välein. Uusi salasana ei saisi olla sama kuin neljä edellistä. Uusilla käyttäjillä ei saisi olla aina sama salasana oletuksena. Neuvo työntekijöitä järjestelmän tietoturvallisessa käytössä. 
 	
-	
-	
-	
+	</p>
 	</div>
 	
 	
