@@ -6,46 +6,53 @@ body {
 }
 
 h1 {
-  color: White;
-  text-align: center;
-  font-size:50px;
-  text-shadow: 10px 10px 20px black;
+	color: White;
+	text-align: center;
+	font-size:50px;
+	text-shadow: 10px 10px 20px black;
 }
 
 h2 {
-  color: white;	
-  text-align:center;
-  font-size: 30px;
-  text-shadow:5px 5px 10px black;
+	color: white;	
+	text-align:center;
+	font-size: 30px;
+	text-shadow:5px 5px 10px black;
   
 }
 
 p {
-  font-family: verdana;
-  font-size: 15px;
-  color:white;
-  text-shadow:2px 2px 4px black;
-  text-align:justify;
-  line-height:1.5;
-  padding:10px;
+	font-family: verdana;
+	font-size: 15px;
+	color:white;
+	text-shadow:2px 2px 4px black;
+	text-align:justify;
+	line-height:1.5;
+	padding:10px;
 }
 ul {
-  justify-content: center;
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #BEBEBE;
+	justify-content: center;
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
+div#teksti li {
+	text-shadow: 2px 2px 4px black;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
 li a {
-  text-shadow: 2px 2px 4px black;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
+	text-shadow: 2px 2px 4px black;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
 }
 
 div#laatikko1 ul {
